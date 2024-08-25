@@ -1,0 +1,17 @@
+
+
+========= Homework1 =========
+
++ Configure Route 
+    - install route 
+    - create page 
+        - HomePage.jsx 
+            ...
+        - ProductPage
+        - AboutPage
+        - LoginPage
+        - RegisterPage
+        - ProfilePage
+    - Register Route in App,jsx 
+    - Testing 
+    

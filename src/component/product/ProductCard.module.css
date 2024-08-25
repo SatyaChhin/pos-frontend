@@ -1,0 +1,57 @@
+.container {
+  /* background-color: rgb(205, 211, 209); */
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  /* box-shadow: 5px 10px #ffffff; */
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.txtPname {
+  font-weight: bold;
+}
+
+.txtPrice {
+  color: rgb(23, 192, 15);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.boxImageEmpty {
+  width: 100%;
+  height: 200px;
+  background-color: #eee;
+}
+
+.rowPrice {
+  display: flex;
+}
+
+.txtDiscount {
+  font-weight: bold;
+  color: rgb(227, 42, 17);
+  margin-left: 10px;
+}
+
+.txtPriceDiscount {
+  color: rgb(23, 192, 15);
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.txtOriginalPrice {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.rowPname {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconHeart {
+  font-size: 20px;
+}

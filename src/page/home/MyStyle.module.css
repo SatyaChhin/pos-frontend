@@ -1,0 +1,57 @@
+.txtTitle {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn1 {
+  background-color: black;
+  color: #fff;
+}
+
+#testId101 {
+  font-size: 36px;
+}
+
+.a {
+  color: red;
+}
+
+.txtBrandName {
+  border: 1px solid black;
+  color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.iconDelete {
+  color: red;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.btnSave {
+  background-color: green;
+  margin: 5px;
+}
+.gridItem1 {
+  background-color: aquamarine;
+  height: 150px;
+}
+.gridItem2 {
+  background-color: rgb(66, 209, 51);
+  height: 150px;
+}
+.gridItem3 {
+  background-color: rgb(190, 37, 114);
+  height: 150px;
+}
+.gridItem4 {
+  background-color: rgb(48, 67, 61);
+  height: 150px;
+}
+
+.productCard {
+  background-color: rgb(192, 217, 239);
+  padding: 40px 20px;
+  border-radius: 10px;
+}

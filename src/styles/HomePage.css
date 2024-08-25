@@ -1,0 +1,15 @@
+.txtMain {
+  color: rgb(82, 88, 213);
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+}
+
+.txtTest {
+  font-size: 30px;
+  color: pink;
+  font-weight: bold;
+}
+.btn1 {
+  color: red;
+}

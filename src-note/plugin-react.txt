@@ -1,0 +1,13 @@
+
+> npm install react-bootstrap bootstrap
+
+import in App.jsx 
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+# remove boostrap from project react 
+> npm rm react-bootstrap
+> npm rm bootstrap
+
+- remove style import in App.jsx 
+- remove componoent that in our project
