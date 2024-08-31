@@ -3,7 +3,6 @@ import { request } from "../../utils/request";
 import { Button, Space } from "antd";
 const CategoryPageA = () => {
   const [list, setList] = useState([]);
-
   useEffect(() => {
     getList();
   }, []);
