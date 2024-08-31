@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ProductBlock from "../../components/page/ProductBlock";
+import ProductBlock from "../../components/Page/ProductBlock";
 import { product_dell, product_macbook } from "../../share/data";
 import { request } from "../../utils/request";
 

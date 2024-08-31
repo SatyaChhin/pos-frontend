@@ -4,14 +4,14 @@ import HomePage from "./pages/home/HomePage";
 import ProductPage from "./pages/product/ProductPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutPage from "./pages/about/AboutPage";
-import MainLayout from "./components/layout/MainLayout";
-import MainLayoutLogin from "./components/layout/MainLayoutLogin";
+import MainLayout from "./components/Layout/MainLayout";
+import MainLayoutLogin from "./components/Layout/MainLayoutLogin";
 import RouteNoteFound from "./components/404/RouteNotFournd";
 import CategoryPageA from "./pages-admin/category/CategoryPageA";
 import RolePageA from "./pages-admin/role/RolePageA";
 import DashboardPageA from "./pages-admin/dashboard/DashboardPageA";
 import ProductPageA from "./pages-admin/product/ProductPageA";
-import MainLayoutAdmin from "./components/layout/MainLayoutAdmin";
+import MainLayoutAdmin from "./components/Layout/MainLayoutAdmin";
 function App() {
   return (
     <BrowserRouter>

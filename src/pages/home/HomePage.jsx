@@ -1,13 +1,10 @@
-// import "./HomePage.css";
-import styles from "./MyStyle.module.css";
-import ProductBlock from "../../components/page/ProductBlock";
+import ProductBlock from "../../components/Page/ProductBlock";
 import {
   product_discount,
   product_top_sale,
   product_hot,
 } from "../../share/data";
-import HomeSlideBanner from "../../components/product/HomeSlideBanner";
-import axios from "axios";
+import HomeSlideBanner from "../../components/Product/HomeSlideBanner";
 import { useEffect, useState } from "react";
 import { Button, Space } from "antd";
 import { request } from "../../utils/request";

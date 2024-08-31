@@ -1,5 +1,5 @@
 import { Row, Col, Button } from "antd";
-import ProductCard from "../product/ProductCard";
+import ProductCard from "../Product/ProductCard";
 
 const ProductBlock = ({ title, sub_title, data }) => {
   return (
