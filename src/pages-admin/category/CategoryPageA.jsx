@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { request } from "../../util/request";
+import { request } from "../../utils/request";
 import { Button, Space } from "antd";
 const CategoryPageA = () => {
   const [list, setList] = useState([]);

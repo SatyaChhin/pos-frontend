@@ -1,18 +1,17 @@
 // import "./App.css";
 import "../public/styles/styles.css";
-import HomePage from "./page/home/HomePage";
-import ProductPage from "./page/product/ProductPage";
+import HomePage from "./pages/home/HomePage";
+import ProductPage from "./pages/product/ProductPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AboutPage from "./page/about/AboutPage";
-import MainLayout from "./component/layout/MainLayout";
-import MainLayoutLogin from "./component/layout/MainLayoutLogin";
-import RouteNoteFound from "./component/404/RouteNotFournd";
-
-import CategoryPageA from "./page-admin/category/CategoryPageA";
-import RolePageA from "./page-admin/role/RolePageA";
-import DashboardPageA from "./page-admin/dashboard/DashboardPageA";
-import ProductPageA from "./page-admin/product/ProductPageA";
-import MainLayoutAdmin from "./component/layout/MainLayoutAdmin";
+import AboutPage from "./pages/about/AboutPage";
+import MainLayout from "./components/layout/MainLayout";
+import MainLayoutLogin from "./components/layout/MainLayoutLogin";
+import RouteNoteFound from "./components/404/RouteNotFournd";
+import CategoryPageA from "./pages-admin/category/CategoryPageA";
+import RolePageA from "./pages-admin/role/RolePageA";
+import DashboardPageA from "./pages-admin/dashboard/DashboardPageA";
+import ProductPageA from "./pages-admin/product/ProductPageA";
+import MainLayoutAdmin from "./components/layout/MainLayoutAdmin";
 function App() {
   return (
     <BrowserRouter>

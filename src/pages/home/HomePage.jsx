@@ -1,16 +1,16 @@
 // import "./HomePage.css";
 import styles from "./MyStyle.module.css";
-import ProductBlock from "../../component/page/ProductBlock";
+import ProductBlock from "../../components/page/ProductBlock";
 import {
   product_discount,
   product_top_sale,
   product_hot,
 } from "../../share/data";
-import HomeSlideBanner from "../../component/product/HomeSlideBanner";
+import HomeSlideBanner from "../../components/product/HomeSlideBanner";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Button, Space } from "antd";
-import { request } from "../../util/request";
+import { request } from "../../utils/request";
 const HomePage = () => {
   // react state
   const [list, setList] = useState([]);

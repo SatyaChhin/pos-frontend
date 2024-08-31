@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import ProductBlock from "../../component/page/ProductBlock";
+import ProductBlock from "../../components/page/ProductBlock";
 import { product_dell, product_macbook } from "../../share/data";
-import { request } from "../../util/request";
+import { request } from "../../utils/request";
 
 const ProductPage = () => {
   useEffect(() => {
