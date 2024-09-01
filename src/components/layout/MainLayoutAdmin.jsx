@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import {
-  DesktopOutlined,
+  UnorderedListOutlined,
   FileOutlined,
   PieChartOutlined,
-  TeamOutlined,
-  UserOutlined,
+  SettingOutlined,
+  UsergroupAddOutlined,
 } from "@ant-design/icons";
 import { Breadcrumb, Layout, Menu, theme } from "antd";
 import { Outlet, useNavigate } from "react-router-dom";
@@ -20,20 +20,18 @@ function getItem(label, key, icon, children) {
     label,
   };
 }
-
 const items = [
   getItem("Dashabord", "/admin", <PieChartOutlined />),
-  // getItem("Customer", "/admin/customer", <DesktopOutlined />),
+  getItem("Customer", "/admin/customer", <UsergroupAddOutlined />),
   // getItem("Employee", "/admine/employee", <FileOutlined />),
   getItem("Role", "/admin/role", <FileOutlined />),
   getItem("Category", "/admin/category", <FileOutlined />),
-  getItem("Product", "/admin/product", <FileOutlined />),
-  getItem("Product", "product", <UserOutlined />, [
-    getItem("Tom", "3"),
+  getItem("Products", "product", <UnorderedListOutlined />, [
+    getItem("Product", "/admin/product", <FileOutlined />),
     getItem("Bill", "4"),
     getItem("Alex", "5"),
   ]),
-  getItem("Setting", "sub2", <TeamOutlined />, [
+  getItem("Setting", "sub2", <SettingOutlined />, [
     getItem("Team 1", "6"),
     getItem("Team 2", "8"),
   ]),
@@ -46,7 +44,6 @@ const MainLayoutAdmin = () => {
   } = theme.useToken();
 
   const navigate = useNavigate();
-
   const onClickMenu = (item) => {
     navigate(item.key);
   };
@@ -76,10 +73,9 @@ const MainLayoutAdmin = () => {
         <div></div>
         <div className="admin-header">
           <div style={{ display: "flex" }}>
-            <img className="admin-logo" src={imageLogo} alt="" />
-            <div>
-              <label className="txt-brandname">NIT Cambodia</label>
-              <div>Build IT Skill</div>
+            <div className="text-black txt-brandnam">
+              <label className="text-2xl font-bold">ហាងលក់ទំនិញបោះដុំ​ ពៅស៉ាន</label>
+              <div className="text-lg">មានលក់ទំនិញគ្រប់មុខ</div>
             </div>
           </div>
           <div style={{ display: "flex" }}>

@@ -8,10 +8,12 @@ import MainLayout from "./components/Layout/MainLayout";
 import MainLayoutLogin from "./components/Layout/MainLayoutLogin";
 import RouteNoteFound from "./components/404/RouteNotFournd";
 import CategoryPageA from "./pages-admin/category/CategoryPageA";
-import RolePageA from "./pages-admin/role/RolePageA";
+import RolePageA from "./pages-admin/Role/RolePageA";
 import DashboardPageA from "./pages-admin/dashboard/DashboardPageA";
-import ProductPageA from "./pages-admin/product/ProductPageA";
+import ProductPageA from "./pages-admin/Product/ProductPageA";
 import MainLayoutAdmin from "./components/Layout/MainLayoutAdmin";
+import CustomerPageA from "./pages-admin/Customer/CustomerPageA";
+
 function App() {
   return (
     <BrowserRouter>
@@ -33,6 +35,7 @@ function App() {
         <Route element={<MainLayoutAdmin />} path="/admin">
           <Route path="" element={<DashboardPageA />} />
           <Route path="category" element={<CategoryPageA />} />
+          <Route path="customer" element={<CustomerPageA />} />
           <Route path="role" element={<RolePageA />} />
           <Route path="product" element={<ProductPageA />} />
         </Route>
